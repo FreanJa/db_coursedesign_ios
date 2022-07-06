@@ -28,8 +28,7 @@ class ViewModel: ObservableObject {
     @Published var showModal: Bool = false
     @Published var dismissModal: Bool = false
     
-    let prefixUrl = "http://122.51.176.43:5000"
-//    let prefixUrl = "http://127.0.0.1:5000"
+    let prefixUrl = "http://127.0.0.1:5000"
     
     init() {
 //        fetchPopular()
